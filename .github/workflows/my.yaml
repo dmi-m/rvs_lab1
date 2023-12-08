@@ -19,6 +19,9 @@ jobs: # список работ, которые будут производит�
       - name: Install pipenv
         run: python -m pip install pipenv
 
+      - name: Pipenv lock
+        run: pipenv lock
+
       - name: Pipenv sync
         run: |
           pipenv sync
