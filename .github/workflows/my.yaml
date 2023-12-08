@@ -10,7 +10,7 @@ jobs: # список работ, которые будут производит�
       - name: Echo Hello
         run: echo "hello world"
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: "3.12"
       - name: Install pipenv
